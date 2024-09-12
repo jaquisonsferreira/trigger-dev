@@ -42,7 +42,7 @@ services:
     networks:
       - webapp
     ports:
-      - 5433:5432
+      - 5439:5432
 
   redis:
     image: redis:7
